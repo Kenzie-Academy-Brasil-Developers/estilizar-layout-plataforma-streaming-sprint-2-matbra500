@@ -29,8 +29,9 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		text-align: center;
 	}
 
-	.userImage{
+	.userImage , .addImage{
 		width: 186px;
+		height: 186px;
 		
 		
 	}
@@ -42,23 +43,29 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 		text-align: center;
 		
 		
+		
 	}
-
+	
 	.user1, .user2 , .user3 , .addProfile{
-		display: inline-block;
 		padding: 3%;
 	}
-	.userImage:active{
+	
+	.users{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+		
+		
+
+	}
+
+
+
+	.userImage:hover{
 		border: 0.5px solid white;
 		
 	}
-
-	.add{
-		margin-bottom: 35px;
-	}
-
-    
-
 
 
 /*TOPO*/
